@@ -1,6 +1,6 @@
 # VGA Chinese Chess with Verilog
 
-This is my final project of NTHU Logic Design Laboratory, design and implement using Verilog to build a special VGA Chinese chess game, supports two players with individual timers, random chess mode, P2S keyboard. The repo aims to be a meaningful reference for those who interests in writing a game with OOP-styled Verilog.
+This is my final project of NTHU Logic Design Laboratory (2022 Spring), design and implement using Verilog to build a special VGA Chinese chess game, supports two players with individual timers, random chess mode, P2S keyboard. The repo aims to be a meaningful reference for those who interests in writing a game with OOP-styled Verilog.
 
 For (Traditional) Chinese guests, to see more details, you can check `doc/README.md` to see the spec, designs and implementation methods directly. Otherwise, feel free to browse source code, which most of the comments are in English.
 
