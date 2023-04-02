@@ -1,9 +1,9 @@
 # VGA Chinese Chess with Verilog
 
-This is my final project of NTHU Logic Design Laboratory (2022 Spring), design and implement using Verilog to build a special VGA Chinese chess game, supports two players with individual timers, random chess mode, P2S keyboard. The repo aims to be a meaningful reference for those who interests in writing a game with OOP-styled Verilog.
+This repository contains the final project for NTHU Logic Design Laboratory (2022 Spring). The project is a special VGA Chinese chess game designed and implemented using Verilog. The game supports two players with individual timers, random chess mode, and P2S keyboard. This repository aims to be a meaningful reference for those interested in writing a game with OOP-styled Verilog.
 
-For (Traditional) Chinese guests, to see more details, you can check `doc/README.md` to see the spec, designs and implementation methods directly. Otherwise, feel free to browse source code, which most of the comments are in English.
+For Chinese guests, please refer to `doc/README.md` to see the specifications, designs, and implementation methods directly. The source code contains mostly English comments.
 
-Notice that `Ps2Interface.v` is created by some senior, who re-implement Ulrich Zolt's work from VHDL to Verilog, and I only modified a little bit for better coding style. Similar cases for `KeyboardCtrl.v` and `KeyboardDecoder.v`. Nevertheless, though `vga_controller.v` is also created by some senior, the coding style is quite... mentally distorting, so I re-implement a better version, which you can control hyper-parameters for different resolution of VGAs. All the other files are implemented by myself.
+Please note that `Ps2Interface.v`, `KeyboardCtrl.v`, and `KeyboardDecoder.v` were originally implemented by a senior, who re-implemented Ulrich Zolt's work from VHDL to Verilog. I made some modifications to `Ps2Interface.v` for better coding style. Additionally, vga_controller.v was also created by a senior, but the coding style was quite... mentally distorting, so I re-implemented a better version that allows control of hyper-parameters for different VGA resolutions. All other files were implemented by myself.
 
-Hope this repo helps. For any questions, feel free to contact me or give your patch. Have a nice day.
+I hope this repository serves as a helpful reference. Please feel free to contact me or submit a patch if you have any questions. Have a great day!
